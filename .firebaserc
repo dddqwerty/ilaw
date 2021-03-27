@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "test-8024d"
+  },
+  "targets": {
+    "test-8024d": {
+      "hosting": {
+        "ilaw": [
+          "ilawtest"
+        ]
+      }
+    }
+  }
+}

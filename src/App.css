@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
+  width: 100vw;
+  height: 100vh;
+  background-color: #247ba0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
+}
+button {
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+label {
+  cursor: pointer;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+a {
+  color: aqua;
+}
+#upload {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+.file-name {
+  margin: 15px;
+}
+
+.download {
+  margin: 10px;
+}
+
+
+.json {
+  border-radius: 10px;
+}
+.error {
+  color: black;
+}
+.json-container {
+  display: flex;
+}
+.check-json {
+  margin: 10px;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+.success {
+  color: greenyellow;
+  display: flex;
+  align-items: center;
+}
+.errorJSON {
   color: white;
+  display: flex;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.flex {
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.m {
+  margin: 3px;
 }

@@ -1,0 +1,16 @@
+[debug] [2020-10-21T03:58:21.885Z] ----------------------------------------------------------------------
+[debug] [2020-10-21T03:58:21.886Z] Command:       /home/dddqwerty/.nvm/versions/node/v14.1.0/bin/node /usr/local/bin/firebase serve
+[debug] [2020-10-21T03:58:21.886Z] CLI Version:   7.6.0
+[debug] [2020-10-21T03:58:21.886Z] Platform:      linux
+[debug] [2020-10-21T03:58:21.886Z] Node Version:  v14.1.0
+[debug] [2020-10-21T03:58:21.886Z] Time:          Wed Oct 21 2020 11:58:21 GMT+0800 (Ulaanbaatar Standard Time)
+[debug] [2020-10-21T03:58:21.886Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2020-10-21T03:58:21.891Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-21T03:58:21.891Z] > authorizing via signed-in user
+[debug] [2020-10-21T03:58:21.891Z] [iam] checking project test-8024d for permissions ["firebase.projects.get"]
+[debug] [2020-10-21T03:58:21.893Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/test-8024d:testIamPermissions  
+
+[debug] [2020-10-21T03:58:23.300Z] <<< HTTP RESPONSE 200
+[debug] [2020-10-21T03:58:23.309Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/test-8024d  
+ 
